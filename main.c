@@ -2,6 +2,7 @@
 #include "sumar.h"
 #include "restar.h"
 #include "multiplicar.h"
+#include "dividir.h"
 int main(int argc, char const *argv[])
 {
     int a,b;
@@ -12,5 +13,6 @@ int main(int argc, char const *argv[])
     printf("la suma es: %d",sumar(a,b));
     printf("la resta es: %d",restar(a,b));
     printf("la multiplicación es: %d",multiplicar(a,b));
+    printf("la división es: %d",dividir(a,b));
     return 0;
 }
